@@ -18,7 +18,7 @@ const Newssearch = ({ visible, setVisible }) => {
   }
 
   const searchHandler = () => {
-    window.location.href = "/topic/" + input;
+    window.location.href = "/news/topic/" + input;
     // return redirect("/topic/" + input);
   };
 
