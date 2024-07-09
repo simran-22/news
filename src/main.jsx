@@ -8,7 +8,7 @@ import App from "./App.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/news",
+    path: "/",
     element: <App />,
   },
   {
